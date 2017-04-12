@@ -82,8 +82,8 @@ articleView.initNewArticlePage = function() {
     e.preventDefault();
     articleView.create();
   });
-  // articleView.setTeasers();
-  $('#articles').html('');
+  articleView.setTeasers();
+  // $('#articles').html('');
 };
 
 articleView.create = function() {
